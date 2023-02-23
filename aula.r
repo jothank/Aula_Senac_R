@@ -30,5 +30,16 @@ length(v) #quantidade dentro do vetor 
 
 sum(v) #soma do vetor 
 
-
 cumsum(v) #passo a passo da soma do vetor
+
+setwd("c:/")
+
+getwd()
+
+RSiteSearch("mean")
+
+args(mean)
+
+help(mean)
+
+?mean
