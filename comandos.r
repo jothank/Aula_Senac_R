@@ -64,3 +64,14 @@ nomes[2]
 nomes[3]
 nomes[4]
 nomes[5]
+
+
+h = c(4,6,8,9)
+print(mean(h)) #media
+print(median(h)) #mediana
+print(sd(h)) #desvio
+print((h)) #
+print((h)) #
+print((h)) #
+print((h)) #
+print(summary(h)) #sumario
