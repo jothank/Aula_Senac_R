@@ -1,0 +1,35 @@
+vetor1 = c(1,2,3,4);
+vetor2 = c(40,30,20,10);
+vetor1
+vetor1+10
+vetor1-10
+vetor1/10
+vetor1*10
+vetor1+vetor2
+vetor2*vetor1
+(vetor1*vetor1)/vetor2
+
+menorParaMaior = 1:10
+menorParaMaior
+maiorParaMenor = 10:1
+maiorParaMenor
+negativoParaMaior = -5:5
+negativoParaMaior
+
+1==1
+'a'=='a'
+1==2
+'a'=='b'
+
+1!=1
+'a'!='a'
+1!=2
+'a'!='b'
+
+3>3
+3>2
+3>=4 
+3>=3
+
+3%in%c(1,2,3)
+'a'%in%c('b','c')
