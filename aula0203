@@ -39,3 +39,39 @@ novo = minha_coluna[minha_coluna>3]
 
 hist(minha_coluna)
 hist(novo)
+
+vetor1 = c(50,60,70)
+vetor2 = c(80,90,99)
+vetor1+vetor2
+
+70%in%c(30,40,50)
+
+vetor = c(90,50,4)
+vetor[vetor>70]
+
+a=c(1,2,3)
+a[4]
+
+idade1 = 30
+idade2 = NA
+idade1 == idade2
+
+cria_x = TRUE
+cria_y = FALSE
+
+if(cria_x){
+    x=1
+}
+
+if(cria_y){
+    y=1
+}
+
+exists("x")
+
+numero = 1
+if(numero==1){
+    cat("numero é igual a 1")
+} else {
+    cat("numero não é igual a 1")
+}
