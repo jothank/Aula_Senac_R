@@ -514,3 +514,24 @@ mutate(flights_sml,gain = arr_delay - dep_delay,speed = distance / air_time * 60
 
 mutate(flights_sml, gain = arr_delay - dep_delay, hours = air_time / 60, gain_per_hour = gain / hours)   
 
+vetor = 1:16
+hypotenuse = function(x, y)
+{
+  matrix(data = vetor,nrow = x, ncol = y)
+}
+hypotenuse(4,4)
+
+
+funcao_numeros_pares <- function() {
+  numeros_pares <- c()
+  
+  for (i in seq(0, 200, 2)) {
+    numeros_pares <- c(numeros_pares, i)
+  }
+  
+  return(numeros_pares)
+}
+
+vetor_pares <- funcao_numeros_pares()
+
+print(vetor_pares)
