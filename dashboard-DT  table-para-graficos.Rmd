@@ -1,0 +1,100 @@
+---
+title: "DashBoard Exemplo"
+output: 
+  flexdashboard::flex_dashboard:
+    orientation: columns
+    vertical_layout: scroll
+  runtime: shiny
+
+---
+
+```{r setup, include=FALSE}
+library(flexdashboard)
+```
+
+Pagina 1
+===
+    
+### Gráfico A
+    
+```{r}
+```
+    
+### Gráfico B
+
+```{r}
+```
+
+### Gráfico C
+
+```{r}
+```
+
+Página tabset fade
+=====================
+
+
+Row 
+-------------------------------------
+    
+### Gráfico 1
+    
+```{r}
+```
+   
+Row {.tabset .tabset-fade}
+-------------------------------------
+   
+### Gráfico 2
+
+```{r}
+```   
+ 
+### Gráfico 3
+    
+```{r}
+```
+
+
+Página para tabelas
+===
+
+```{r}
+knitr::kable(mtcars)
+```
+
+
+Página de tabelas com renderTable
+===
+
+Column
+---
+
+### Cars
+
+```{r}
+DT::datatable(mtcars, options = list(
+  bPaginate = FALSE
+))
+```
+
+Column
+---
+### Cars com Paginação
+
+```{r}
+DT::datatable(mtcars, options = list(
+  pageLength = 25
+))
+```
+
+Página Aula08
+===
+
+### Dados Aula08
+
+```{r}
+DT::datatable(mtcars, options = list(
+  pageLength = 25
+))
+```
